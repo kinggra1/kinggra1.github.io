@@ -2,10 +2,9 @@
 title: Grant Merlin King
 email: kinggra1@msu.edu
 description: > # this means to ignore newlines until "baseurl:"
-  Grant Merlin King: Computer Scientist and musician
+  Grant King: Computer Scientist and Musician
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
 github_username:  kinggra1
 
 # Build settings

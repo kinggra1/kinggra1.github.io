@@ -212,80 +212,7 @@ i.arrow {
 	  border-right: 10px solid rgba(0, 0, 0, 0);
 	  border-bottom: 13px solid #FFFFFF;
 }
-/* Login Form */
-#loginForm {
-	  width: 300px;
-  background: #fff;
-  border: 1px solid #d6d6d6;
-  height: 251px;
-}
-#loginForm fieldset {
-    margin:0 0 15px 0;
-    display:block;
-    border:0;
-    padding:0;
-}
-fieldset#body {
-    border-radius:3px;
-    -webkit-border-radius:3px;
-    -moz-border-radius:3px;
-    -o-border-radius:3px;
-    padding:15px 15px;
-    margin:0;
-}
-#loginForm #checkbox {
-    width:auto;
-    margin:3px 6px 0 0;
-    float:left;
-    padding:0;
-    border:0;
-}
-#body label {
-   color:#34353a;
-    margin:10px 0 0 0;
-    display:block;
-    float:left;
-    font-size:0.8725em;
-    font-weight: 400;
-}
-#loginForm #body fieldset label{
-    display:block;
-    float:none;
-    margin:0 0 6px 0;
-}
-#loginForm #login {
-  width: auto;
-  float: left;
-  background:#53bed6;
-  color: #fff;
-  font-size: 0.8725em;
-  padding: 7px 20px;
-  border: none;
-  margin: 0 12px 0 0;
-  cursor: pointer;
-  transition: all .5s;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  -o-transition: all .5s;
-  outline:none;
-  text-transform: uppercase;
-  
-}
 
-#body label i {
-  color: #000;
-  font-size: 1em;
-  font-style: normal;
-}
-#loginForm span a {
-  color:#34353a;
-  font-size: 0.85em;
-  font-weight: 400;
-  background: none;
-  border: none;
-  box-shadow: none;
-  padding: 0 16px;
-}
 /*--nav-responsive--*/
 @media only screen and (max-width :800px) {
 	span.menu {
@@ -493,127 +420,8 @@ span.devide-line {
 	top: 15em;
 }
 /*--experience-end--*/
-/*--my skill--*/
-.my-skills{
-	background:#34353a;
-    padding: 5em 0;
-}
-.my-skills h3{
-  margin: 0;
-  color: #ffffff;
-  font-size: 3em;
-  font-weight: 400;
-}
-.skill-grids{
-    margin-top: 4em;
-}
-.skills-grid p{
-	margin:20px 0 0 0;
-	color:#ffffff;
-	font-size: 0.9em;
-	font-weight:600;
-	text-transform:uppercase;
-}
-.circle{
-color:#ffffff;
-font-size:36px;
-}
-span.circles-number {
-  font-size: 36px;
-}
-span.circles-text {
-  font-size: 36px;
-}
-.circles-text-wrp {
-  line-height: 142px !important;
-}
-/*--//my skill--*/
-/*-- projects --*/
-.projects{
-	background:#53bed6;
-	min-height:600px;
-	position:relative;
-	  padding-top: 12em;
-}
-.project-grids h4 {
-  color: #fff;
-  font-size: 1.2em;
-  text-transform: uppercase;
-}
-.cycle{
-	text-align:center;
-}
-.cycle span{
-	width:284px;
-	height:284px;
-	display:inline-block;
-	background:url(../images/cycle.png) no-repeat 0px 0px;
-}
-.people-grid {
-   position: absolute;
-  left: 56.5%;
-  top: 51%;
-  text-align: center;
-}
-.total-project {
-    position: absolute;
-  top: 17%;
-  left: 46.5%;
-  text-align: center;
-}
-.project-grid p{
-	color: #FFF;
-	font-size: 1.4em;
-	text-transform: uppercase;
-	font-weight: 300;
-	margin: 0;
-}
-.project-grid span{
-	width:70px;
-	height:70px;
-	display:inline-block;
-	background:#FFF;
-	border-radius:30em;
-	-webkit-border-radius:30em;
-	-moz-border-radius:30em;
-	-o-border-radius:30em;
-	-ms-border-radius:30em;
-	margin-top:1em;
-	  transition: all .5s;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  -o-transition: all .5s;
-}
-.project-grid:hover span{
-	background:#34353a;
-}
-.project-grid span i{
-	  font-size: 1.6em;
-  padding-top: 0.8em;
-  padding-right: 0.1em;
-}
-.project-grid:hover  span i{
-color:#fff;
-}
-.clientsgrid{
-	   position: absolute;
-  left: 39.5%;
-  top: 51%;
-  text-align: center;
-}
-.people-grid div{
-  position: absolute;
-  left: 90px;
-  top: 18px;
-}
-.clientsgrid div{
-  position: absolute;
-  left: -102px;
-  top: 21px;
-}
-.clientsgrid span i.p-icon{
-	background-position: -43px 0px;
-}
+
+
 /*--portfolio--*/
 .gallery {
 	padding:5em 0;
@@ -721,7 +529,6 @@ label {
   padding: 15px 18px;
   font-weight: 400;
   font-size: 15px;
-  text-transform: uppercase;
   color: #333;
   margin: 0px 0 7px 0;
 }
@@ -857,6 +664,8 @@ h3.tittle.two {
 	}
 	.banner {
 	  background: url(../images/background.jpg);
+    background-position: bottom;
+    background-size: 100%;
 	  min-height: 700px;
 	}
 	.contact-top {
@@ -1686,7 +1495,6 @@ h3.tittle.two {
 	  padding: 12px 14px;
 	  font-weight: 400;
 	  font-size: 15px;
-	  text-transform: uppercase;
 	  color: #333;
 	  margin: 0px 0 4px 0;
 	}
@@ -1807,7 +1615,6 @@ h3.tittle.two {
 	  padding: 12px 14px;
 	  font-weight: 400;
 	  font-size: 15px;
-	  text-transform: uppercase;
 	  color: #333;
 	  margin: 0px 0 4px 0;
 	}

@@ -663,7 +663,7 @@ h3.tittle.two {
 	  text-align: center;
 	}
 	.banner {
-	  background: url(../images/background.jpg);
+	  background: url(../images/background.jpg) no-repeat;
     background-position: bottom;
     background-size: 100%;
 	  min-height: 700px;

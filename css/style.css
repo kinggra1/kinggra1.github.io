@@ -4,6 +4,7 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+
 html, body{
 	font-family: 'Raleway', sans-serif;
 	font-size: 100%;
@@ -84,8 +85,8 @@ ul.side_nav li a{
 	margin-bottom:1em;
 }
 ul.side_nav li a:hover{
-	background:#53bed6;
-	border:2px solid#53bed6;
+	background:#527e17;
+	border:2px solid#527e17;
 }
 /*--slider--*/
 .top-menu {
@@ -180,7 +181,7 @@ nav a:focus {
 	  z-index: 999;
 	  position: absolute;
 	    width: 93.5%;
-	  background:#53bed6;
+	  background:#527e17;
 	  text-align: center;
 	  margin-left: -2.3em;
 	}
@@ -202,15 +203,15 @@ nav a:focus {
   background: url(../images/background.jpg) no-repeat;
   background-position: right;
   height: 100%;
-  background-size: 100%;
+  background-size: cover;
   min-height: 730px;
 }
 .circular {
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
   background: url(../images/headshott.jpg) no-repeat;
   background-size: 100%;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -264,7 +265,7 @@ h3.tittle {
   width:100%;
 }
 .text {
-  background-color: #5A981F;
+  background-color: #527e17;
   min-height: 550px;
   padding: 4em;
 }
@@ -299,12 +300,12 @@ span.devide-line {
 	position: absolute;
 	top: 5.4em;
 	display: initial;
-	background: #53bed6;
+	background: #527e17;
 	left: 50%;
 }
 .experience-left h4, .experience-left-trd h4,.experience-right-snd h4 {
   font-size: 1.4em;
-  color: #53bed6;
+  color: #527e17;
   margin: 0px;
   text-transform: uppercase;
 }
@@ -332,15 +333,15 @@ span.devide-line {
 	top:12.35em;
 }
 .experience-left-trd {
-	top: 22.35em;
+	top: 25.35em;
 }
 .experience-left span, .experience-left-snd span, .experience-left-trd span {
-   color: #53bed6;
+   color: #527e17;
   font-size: 1.7em;
   position: relative;
   right: -3.825em;
   padding: 14px;
-  border: 2px dotted #53bed6;
+  border: 2px dotted #527e17;
   border-radius: 50%;
   -o-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -490,7 +491,7 @@ label {
   outline: none;
   padding: 0.7em 0.7em;
   color: #fff;
-  background: #53bed6;
+  background: #527e17;
   text-transform: uppercase;
   font-weight:500;
   font-size: 0.95em;
@@ -554,17 +555,17 @@ h3.tittle.two {
    padding: 7em 0 0 13em;
 }
 .point i {
-  color:#53bed6;
+  color:#527e17;
   font-size: 4em;
 }
 .map-l i {
-  color:#53bed6;
+  color:#527e17;
   font-size: 4em;
 }
 /*--welcome--*/
 .copy {
    text-align: center;
-    background:#53bed6;
+    background:#527e17;
     padding: 1em 1em;
   }
 .copy p {
@@ -614,7 +615,7 @@ h3.tittle.two {
 	.banner {
 	  background: url(../images/background.jpg) no-repeat;
     background-position: bottom;
-    background-size: 100%;
+    background-size: cover;
 	  min-height: 700px;
 	}
 	.contact-top {
@@ -943,7 +944,7 @@ h3.tittle.two {
 	  z-index: 999;
 	  position: absolute;
 	  width: 95.5%;
-	  /*background: #53bed6;*/
+	  /*background: #527e17;*/
     background: #000000;
 	  text-align: center;
 	  margin-left: -2.3em;

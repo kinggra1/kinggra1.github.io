@@ -206,13 +206,13 @@ nav a:focus {
   background-size: cover;
   min-height: 730px;
 }
-.circular {
+.headshot {
   width: 200px;
   height: 200px;
   border-radius: 100px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
-  background: url(../images/headshott.jpg) no-repeat;
+  background: url(../images/headshot.jpg) no-repeat;
   background-size: 100%;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -262,7 +262,7 @@ h3.tittle {
   padding:0;
 }
 .pic img {
-  width:100%;
+  width: 100%;
 }
 .text {
   background-color: #527e17;
@@ -513,6 +513,10 @@ label {
 h3.tittle.two {
   margin: 0.5em 0;
   text-align: left;
+}
+.contact-image {
+  position: relative;
+  min-height:540px;
 }
 .map {
   position: relative;

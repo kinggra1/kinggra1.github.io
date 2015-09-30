@@ -492,7 +492,8 @@ label {
 }
 .contact-form input[type="submit"] {
   outline: none;
-  padding: 0.7em 0.7em;
+  margin-top: 7em;
+  padding: 1em 1em;
   color: #fff;
   background: #527e17;
   text-transform: uppercase;
@@ -502,6 +503,7 @@ label {
   width: 21%;
   border: none;
   float: right;
+  margin-right: 8em;
 }
 .contact-form input[type="submit"]:hover {
   text-decoration: none;

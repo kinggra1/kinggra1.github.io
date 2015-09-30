@@ -452,6 +452,9 @@ h3.tittle.port {
 .gallery_1{
 	margin:3em 0 0 0;
 }
+.gallery p {
+  vertical-align: middle;
+}
 /*-- //portfolio--*/
 /*--contact--*/
 .contact_desc{
@@ -518,7 +521,7 @@ h3.tittle.two {
   background: url(../images/jass.png);
   background-size: contain;
   position: absolute;
-  left: 0;
+  left: 0; 
 }
 .map {
   position: relative;

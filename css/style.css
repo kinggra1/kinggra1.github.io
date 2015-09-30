@@ -459,13 +459,14 @@ h3.tittle.port {
 /*--contact--*/
 .contact_desc{
   padding:4em 0;
-}
-form.left_form {
+} 
+div.top_form {
+  clear: both;
   float: left;
-  width: 49%;
+  width: 100%;
 }
-form.right_form {
-  float: right;
+div.bottom_form {
+  float: left;
   width: 49%;
 }
 label {

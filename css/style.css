@@ -459,13 +459,14 @@ h3.tittle.port {
 /*--contact--*/
 .contact_desc{
   padding:4em 0;
-}
-form.left_form {
+} 
+div.top_form {
+  clear: both;
   float: left;
-  width: 49%;
+  width: 100%;
 }
-form.right_form {
-  float: right;
+div.bottom_form {
+  float: left;
   width: 49%;
 }
 label {
@@ -492,7 +493,8 @@ label {
 }
 .contact-form input[type="submit"] {
   outline: none;
-  padding: 0.7em 0.7em;
+  margin-top: 7em;
+  padding: 1em 1em;
   color: #fff;
   background: #527e17;
   text-transform: uppercase;
@@ -502,6 +504,7 @@ label {
   width: 21%;
   border: none;
   float: right;
+  margin-right: 8em;
 }
 .contact-form input[type="submit"]:hover {
   text-decoration: none;

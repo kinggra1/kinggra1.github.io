@@ -1,0 +1,3 @@
+var swing_sound = new Audio();
+swing_sound.src = "sounds/swing.wav";
+swing_sound.load();
